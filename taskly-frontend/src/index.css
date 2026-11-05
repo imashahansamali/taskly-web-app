@@ -388,8 +388,10 @@ hr {
   min-height: 116px;
 }
 .stat-card span {
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 700;
   color: var(--muted);
+  -webkit-text-stroke: 0.3px currentColor;
 }
 .stat-card strong {
   font-size: 30px;
